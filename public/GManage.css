@@ -1,0 +1,539 @@
+@media all and (max-width: 768px){
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  /*배경*/
+  .Background1 {
+    width:100%;
+    min-width:550px;
+    height: 66px;
+    background-color: #ffffff;
+  }
+  .Background2{
+    width:100%;
+    min-width:610px;
+    height:auto;
+    min-height:1060px;
+    background-color:#ffffff;
+    position:relative;
+    padding-bottom:100px;
+  }
+  .Background3 {
+    width: calc(100%);
+    min-width:550px;
+    height: 133px;
+    background-color: #333333;
+    position: relative;
+  }
+  .text1{
+    width: 403px;
+    height: 50px;
+    font-family: SourceHanSansKR;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin:40px 0 59px;
+  }
+  .text2 {
+    width: 160px;
+    height: 41px;
+    font-family: SourceHanSansKR;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin:0 14.8px;
+  }
+  .text2.a {
+    border:solid 3px #ffca3a;
+  }
+  .text2.b{
+    border-bottom:solid 3px #ffca3a;
+  }
+  .text2.c{
+    border-bottom:solid 3px #ffca3a;
+  }
+  .text3 {
+    width: 268px;
+    height: 20px;
+    font-family: SourceHanSansKR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: relative;
+    text-align:left;
+    top:10px; left:9px;
+  }
+  .text3>.a {
+    color: #ffca3a;
+  }
+  .text4 {
+    width: 245px;
+    height: 22px;
+    font-family: SourceHanSansKR;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    position: absolute;
+    top:9px; right:14px;
+  }
+  .text5 {
+    width: 100px;
+    height: 14px;
+    font-family: SourceHanSansKR;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    bottom:7px;
+  }
+  .text5.a{
+    bottom: 23px;
+  }
+  .text6 {
+    width: 159px;
+    height: 66px;
+    font-family: SourceHanSansKR;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #333333;
+    position: relative;
+    right:27px; bottom:10px;
+  }
+  .TSARR {
+    width: 333px;
+    height: 97px;
+    font-family: SourceHanSansKR;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:33px; left:55%;
+  }
+  .button {
+    width: 125px;
+    height: 22.8px;
+    object-fit: contain;
+    border-radius: 5px;
+    position: relative;
+    top:20px;
+  }
+  .button.a{
+    width: 125px;
+    height: 22.8px;
+    object-fit: contain;
+    border-radius: 5px;
+    position: relative;
+    top:4px;
+  }
+  .Cart-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Menu-Icon {
+    padding-right:10px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Person-Icon {
+    padding-left:8px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Project-Logo {
+    width: calc(100% - 230px);
+    height: 36.6px;
+    padding-top:14.4px;
+    object-fit: none;
+  }
+  .Project-Logo_white {
+    width: 435px;
+    height: 133px;
+    object-fit: contain;
+    position: relative;
+    right:calc(20%);
+  }
+  .Product {
+    width: 107px;
+    height: 107px;
+    object-fit: contain;
+    border-radius: 10px;
+    position: relative;
+    top:11px;
+  }
+  .Search-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .container2{
+    width:610px;
+    height:309px;
+    position: relative;
+    margin-top:59px;
+    text-align:left;
+  }
+  .container2.a{
+    width: 610px;
+    height: 47px;
+    background-color: #333333;
+    background-color: #333333;
+    margin:0;
+    position: relative;
+  }
+  .container2.b{
+    width: 604px;
+    height: 256px;
+    border: 3px solid #333333;
+    margin:0;
+    position: relative;
+  }
+  .container2p {
+    width: 144px;
+    height: 227px;
+    object-fit: contain;
+    border-radius: 10px;
+    text-align: center;
+    border:1px solid #333333;
+    margin:16px;
+  }
+ }
+@media all and (min-width: 769px) {
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  /*배경*/
+  .Background1 {
+    width: calc(100%);
+    min-width:1400px;
+    height: 110px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .Background2{
+    width:100%;
+    min-width:1400px;
+    height:708px;
+    background-color: #ffffff;
+    position:relative;
+  }
+  .Background3 {
+    width: calc(100%);
+    min-width:1400px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+  /*폰트*/
+  .text0 {
+    width: 100px;
+    height: 46px;
+    font-family: SourceHanSansKR;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    top:32px; left:350px;
+  }
+  .text1 {
+   width: 403px;
+   height: 50px;
+   font-family: SourceHanSansKR;
+   font-size: 50px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.44;
+   letter-spacing: normal;
+   text-align: center;
+   color: #333333;
+   margin:24px 0 51.7px;
+  }
+  .text2 {
+    width: 204.9px;
+    height: 52.5px;
+    font-family: SourceHanSansKR;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin:0 19.3px;
+  }
+  .text2.a {
+    border:solid 3px #ffca3a;
+  }
+  .text2.b{
+    border-bottom:solid 3px #ffca3a;
+  }
+  .text2.c{
+    border-bottom:solid 3px #ffca3a;
+  }
+  .text3 {
+    width: 268px;
+    height: 20px;
+    font-family: SourceHanSansKR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: relative;
+    text-align:left;
+    top:10px; left:9px;
+  }
+  .text3>.a {
+    color: #ffca3a;
+  }
+  .text4 {
+    width: 245px;
+    height: 22px;
+    font-family: SourceHanSansKR;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    position: absolute;
+    top:9px; right:14px;
+  }
+  .text5 {
+    width: 100px;
+    height: 18px;
+    font-family: SourceHanSansKR;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    bottom:33px;
+  }
+  .text5.a{
+    bottom:50px;
+  }
+  .text6 {
+    width: 150px;
+    height: 22px;
+    font-family: SourceHanSansKR;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: right;
+    color: #333333;
+    margin-top:8px;
+    position: relative;
+    bottom:40px;
+  }
+  .TSARR {
+    width: 470px;
+    height: 130px;
+    font-family: SourceHanSansKR;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:37px; right:calc(0%);
+  }
+  /*이미지 모음*/
+  .button {
+    width: 157.3px;
+    height: 28.7px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #ffca3a;
+    margin:2px 0;
+  }
+  .button.a{
+    width: 157.3px;
+    height: 28.7px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #ffca3a;
+    position: relative;
+    margin: 0;
+    bottom:20px;
+  }
+  .Cart-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:97.1px;
+  }
+  .Person-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position: absolute;
+    top:26.5px; right:26.5px;
+  }
+  .Project-Logo {
+    margin-top:5px;
+    width: 505px;
+    height: 100px;
+    object-fit: contain;
+    position:absolute;
+    left:-100px;
+  }
+  .Project-Logo_white {
+    width: 797px;
+    height: 203px;
+    object-fit: contain;
+    position: relative;
+    right:25%;
+  }
+  .Product {
+    width: 150.6px;
+    height: 150.6px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-top:7.8px;
+  }
+  .Search-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:165.1px;
+  }
+  /*건축물*/
+  .container1{
+    width:calc(100%);
+    max-width:1250px;
+    height:110px;
+    background-color:#FFFFFF;
+    position: relative;
+    text-align:left;
+  }
+  .container2{
+    width:814px;
+    height:379px;
+    position: relative;
+    margin-top:52.8px;
+    text-align:left;
+  }
+  .container2.a{
+    width: 814px;
+    height: 47px;
+    background-color: #333333;
+    margin:0;
+    position: relative;
+  }
+  .container2.b{
+    width: 808px;
+    height: 329px;
+    border: 3px solid #333333;
+    margin:0;
+    position: relative;
+  }
+  .container2p {
+    width: 179.2px;
+    height: 283.6px;
+    object-fit: contain;
+    border-radius: 10px;
+    text-align: center;
+    border:1px solid #333333;
+    margin:21.7px;
+  }
+  .container3{
+    width:calc(100%);
+    max-width:1100px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+}

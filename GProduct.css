@@ -1,0 +1,417 @@
+@media all and (max-width: 768px){
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  /*배경*/
+  .Background1 {
+    width:100%;
+    min-width:550px;
+    height: 66px;
+    background-color: #ffffff;
+  }
+  .Background2{
+    width:100%;
+    min-width:550px;
+    height:1340px;
+    background-color:#ffffff;
+    position:relative;
+  }
+  .Background3 {
+    width: calc(100%);
+    min-width:550px;
+    height: 133px;
+    background-color: #333333;
+    position: relative;
+  }
+  .text1 {
+    width: 528px;
+    height: 78px;
+    font-family: SourceHanSansKR;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin:9px calc(calc(100% - 528px)/2) 31px;
+  }
+  .text2 {
+    width: 163px;
+    height: 49px;
+    font-family: SourceHanSansKR;
+    font-size: 32px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin:0px calc(calc(100% - 163px)/2) 0;
+  }
+  .text3 {
+  width: 64.1px;
+  height: 25.6px;
+  font-family: SourceHanSansKR;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  position: absolute;
+  left:calc(calc(100% - 64.1px)/2);
+  bottom:197px;
+  }
+  .text4 {
+    width: 162px;
+    height: 40px;
+    font-family: SourceHanSansKR;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom:90px; left:calc(calc(100% - 162px)/2);
+  }
+  .TSARR {
+    width: 333px;
+    height: 97px;
+    font-family: SourceHanSansKR;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:33px; left:55%;
+  }
+  .button  {
+  width: 282.5px;
+  height: 71px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #ffca3a;
+  position: relative;
+  top:100px;
+  }
+  .baseline-arrow_drop_up-24px {
+  width: 59.8px;
+  height: 59.8px;
+  object-fit: contain;
+  position: absolute;
+  left:calc(calc(100% - 59.8px)/2);
+  bottom:200px;
+  }
+  .baseline-arrow_drop_down-24px {
+  width: 29.9px;
+  height: 20.5px;
+  object-fit: contain;
+  position: absolute;
+  left:calc(calc(100% - 29.9px)/2 - 3px);
+  bottom:175px;
+  }
+  .Cart-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Menu-Icon {
+    padding-right:10px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Person-Icon {
+    padding-left:8px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Project-Logo {
+    width: calc(100% - 230px);
+    height: 36.6px;
+    padding-top:14.4px;
+    object-fit: none;
+  }
+  .Project-Logo_white {
+    width: 435px;
+    height: 133px;
+    object-fit: contain;
+    position: relative;
+    right:calc(20%);
+  }
+  .Search-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Product {
+    width: 397px;
+    height: 397px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  .number{
+    position:relative;
+    width:250px;
+    top:30px;
+  }
+ }
+@media all and (min-width: 769px) {
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  /*배경*/
+  .Background1 {
+    width: calc(100%);
+    min-width:1400px;
+    height: 110px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .Background2{
+    width:100%;
+    height:708px;
+    background-color: #ffffff;
+    position:relative;
+  }
+  .Background3 {
+    width: calc(100%);
+    min-width:1400px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+  /*폰트*/
+  .text0 {
+    width: 100px;
+    height: 46px;
+    font-family: SourceHanSansKR;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    top:32px; left:350px;
+  }
+  .text1 {
+  width: 701px;
+  height: auto;
+  font-family: SourceHanSansKR;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  position: absolute;
+  right:0px; top:140px;
+  }
+  .text2 {
+  width: 211px;
+  height: 49px;
+  font-family: SourceHanSansKR;
+  font-size: 44px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  position: absolute;
+  left:700px; top:326px;
+  }
+  .text3 {
+  width: 75px;
+  height: 30px;
+  font-family: SourceHanSansKR;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  position: absolute;
+  bottom:340px; right:368px;
+  }
+  .text4 {
+    width: 186px;
+    height: 46px;
+    font-family: SourceHanSansKR;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom:180px; left:790px;
+  }
+  .TSARR {
+    width: 470px;
+    height: 130px;
+    font-family: SourceHanSansKR;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:37px; right:calc(0%);
+  }
+  /*이미지 모음*/
+  .button  {
+    width: 365px;
+    height: 82px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #ffca3a;
+    position: relative;
+    left:100px;
+    bottom:100px;
+  }
+  .Cart-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:97.1px;
+  }
+  .Person-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position: absolute;
+    top:26.5px; right:26.5px;
+  }
+  .Project-Logo {
+    margin-top:5px;
+    width: 505px;
+    height: 100px;
+    object-fit: contain;
+    position:absolute;
+    left:-100px;
+  }
+  .Project-Logo_white {
+    width: 797px;
+    height: 203px;
+    object-fit: contain;
+    position: relative;
+    right:25%;
+  }
+  .Search-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:165.1px;
+  }
+  .Product {
+  width: 593px;
+  height: 593px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-top:55px;
+  }
+  .baseline-arrow_drop_up-24px {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  position: absolute;
+  bottom:345px; right:370px;
+  }
+  .baseline-arrow_drop_down-24px {
+  width: 35px;
+  height: 24px;
+  object-fit: contain;
+  position: absolute;
+  bottom:308px; right:392px;
+  }
+  /*건축물*/
+  .container1{
+    width:calc(100%);
+    max-width:1250px;
+    height:110px;
+    background-color:#FFFFFF;
+    position: relative;
+    text-align:left;
+  }
+  .container2{
+    width:1400px;
+    height:708px;
+    background-color: #ffffff;
+    position: relative;
+    text-align: left;
+  }
+  .container3{
+    width:calc(100%);
+    max-width:1100px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+  .number{
+    position:absolute;
+    bottom:280px; left:370px;
+    height:25px;
+  }
+}

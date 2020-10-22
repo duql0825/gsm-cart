@@ -1,0 +1,602 @@
+@media all and (max-width: 768px){
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  figure{
+    display:inline-block;
+    margin:0;
+  }
+  /*배경*/
+  .Background1 {
+    width:100%;
+    height: 66px;
+    background-color: #ffffff;
+  }
+  .Background2{
+    width: 768px;
+  height: 394px;
+  background-color: #333333;
+  position: relative;
+  }
+  .Background3{
+    width:768px;
+    height:1755px;
+    background-color:#ffffff;
+    position: relative;
+  }
+  .Background4 {
+    width: calc(100%);
+    height: 133px;
+    background-color: #333333;
+    position: relative;
+  }
+  .text1{
+    width: 197px;
+    height: 64px;
+    font-family: BMDoHyeon;
+    font-size: 45px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+    margin-top:35px; right:225px;
+  }
+  .text2{
+    width: 78px;
+    height: 19px;
+    font-family: SourceHanSansKR;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  .text3{
+    width: 211px;
+    height: 97px;
+    font-family: SourceHanSansKR;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  position: absolute;
+  left:0px; top:45px;
+  }
+  .text4 {
+    width: 430px;
+    height: 27px;
+    font-family: SourceHanSansKR;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  position: absolute;
+  top:72px; left:70px;
+  }
+  .text5 {
+    width: 309px;
+    height: auto;
+    font-family: SourceHanSansKR;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+  }
+  .text6{
+    width: 163px;
+    height: 20px;
+    font-family: SourceHanSansKR;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+  }
+  .text7{
+  width: 25px;
+  height: 25px;
+  font-family: SourceHanSansKR;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin:0 3px 0px;
+  position:relative;
+  bottom:30px;
+  }
+  .text7:hover {
+  width: 25px;
+  height: 25px;
+  background-color: #333333;
+  padding-top:5px;
+  border-radius:30px;
+  color:#ffffff;
+  }
+  .TSARR {
+    width: 333px;
+    height: 97px;
+    font-family: SourceHanSansKR;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:33px; left:55%;
+  }
+  .Cart-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Menu-Icon {
+    padding-right:10px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Person-Icon {
+    padding-left:8px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Project-Logo {
+    width: calc(100% - 230px);
+    height: 36.6px;
+    padding-top:14.4px;
+    object-fit: none;
+  }
+  .Project-Logo_white {
+    width: 435px;
+    height: 133px;
+    object-fit: contain;
+    position: relative;
+    right:calc(20%);
+  }
+  .Search-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Sort {
+  width: 58.2px;
+  height: 58.2px;
+  object-fit: contain;
+  position: relative;
+  margin:24px 13px 8px;
+  }
+  .ProductIMG {
+  width: 309px;
+  height: 309px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin:0;
+  }
+  .baseline-keyboard_arrow_left-24px {
+  width: 26.4px;
+  height: 29.2px;
+  object-fit: contain;
+  position: relative;
+  bottom:20.8px;
+}
+.baseline-keyboard_arrow_right-24px {
+  width: 26.4px;
+  height: 29.2px;
+  object-fit: contain;
+  position: relative;
+  bottom:20.8px;
+}
+  .container2{
+    margin-top:11px;
+    width:568px;
+    height:200px;
+    position:relative;
+    background: #333333;
+  }
+  .container3{
+    width:768px;
+    height:1700px;
+    position: relative;
+    background-color:#ffffff;
+  }
+  /*상품 갖다 대는 곳*/
+  .product1{
+    position:absolute;
+    left:56px; top:102px;
+  }
+  .product2{
+    position:absolute;
+    left:404px; top:102px;
+  }
+  .product3{
+    position:absolute;
+    left:56px; top:501px;
+  }
+  .product4{
+    position:absolute;
+    left:404px; top:501px;
+  }
+  .product5{
+    position:absolute;
+    left:56px; top:900px;
+  }
+  .product6{
+    position:absolute;
+    left:404px; top:900px;
+  }
+  .product7{
+    position:absolute;
+    left:56px; top:1299px;
+  }
+  .product8{
+    position:absolute;
+    left:404px; top:1299px;
+  }
+}
+@media all and (min-width: 769px){
+  /*워프*/
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  figure{
+    display:inline-block;
+    margin:0;
+  }
+  /*배경*/
+  .Background1 {
+    width: calc(100%);
+    min-width:1115px;
+    height: 110px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .Background2{
+    width:100%;
+    min-width:1115px;
+    height:264.7px;
+    background-color: #333333;
+  }
+  .Background3{
+    width:100%;
+    min-width:1115px;
+    height:1011px;
+    background-color: #ffffff;
+  }
+  .Background4 {
+    width: calc(100%);
+    min-width:1115px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+  /*폰트*/
+  .text0 {
+    width: 100px;
+    height: 46px;
+    font-family: SourceHanSansKR;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    top:32px; left:350px;
+  }
+  .text1{
+  width: 197px;
+  height: 64px;
+  font-family: BMDoHyeon;
+  font-size: 45px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin:34.3px 0 35px;
+  }
+  .text2{
+  width: 78px;
+  height: 29px;
+  font-family: SourceHanSansKR;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  }
+  .text3{
+  width: 231px;
+  height: 60px;
+  font-family: SourceHanSansKR;
+  font-size: 44px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  position: absolute;
+  left:0px; top:45px;
+  }
+  .text4 {
+  width: 670.6px;
+  height: 27px;
+  font-family: SourceHanSansKR;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  position: absolute;
+  top:72px; left:70px;
+  }
+  .text5 {
+  width: 250px;
+  height: auto;
+  font-family: SourceHanSansKR;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  margin:9px 0 5px;
+  }
+  .text6{
+  width: 163px;
+  height: 20px;
+  font-family: SourceHanSansKR;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  }
+  .text7{
+    width: 27.5px;
+    height: 30.4px;
+    font-family: SourceHanSansKR;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    position: relative;
+    color: #333333;
+    bottom:8px;
+    margin:0 5px 0;
+  }
+  .text7:hover {
+  width: 27.5px;
+  height: 30.4px;
+  background-color: #333333;
+  padding-top:5px;
+  border-radius:30px;
+  color:#ffffff;
+  }
+  .TSARR {
+    width: 470px;
+    height: 130px;
+    font-family: SourceHanSansKR;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:37px; right:calc(0%);
+  }
+  /*이미지 모음*/
+  .Cart-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:97.1px;
+  }
+  .Person-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position: absolute;
+    top:26.5px; right:26.5px;
+  }
+  .Project-Logo {
+    margin-top:5px;
+    width: 505px;
+    height: 100px;
+    object-fit: contain;
+    position:absolute;
+    left:-100px;
+  }
+  .Project-Logo_white {
+    width: 797px;
+    height: 203px;
+    object-fit: contain;
+    position: relative;
+    right:25%;
+  }
+  .Search-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:165.1px;
+  }
+  .baseline-keyboard_arrow_left-24px {
+  width: 26.4px;
+  height: 29.2px;
+  object-fit: contain;
+  position: relative;
+  padding-top:33px;
+}
+.baseline-keyboard_arrow_right-24px {
+  width: 26.4px;
+  height: 29.2px;
+  object-fit: contain;
+  position: relative;
+  padding-top:33px;
+}
+  .Sort {
+  width: 58.2px;
+  height: 58.2px;
+  object-fit: contain;
+  position: relative;
+  margin:0px 13px 0px;
+  }
+  .ProductIMG {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin:0;
+  }
+  /*건축물*/
+  .container1{
+    width:calc(100%);
+    max-width:1250px;
+    height:110px;
+    background-color:#FFFFFF;
+    position: relative;
+    text-align:left;
+  }
+  .container2{
+    width:1100px;
+    height:100px;
+    position:relative;
+    background: #333333;
+  }
+  .container3{
+    width:1115px;
+    height:915px;
+    position: relative;
+    background-color:#ffffff;
+    border-bottom:1px #707070 solid;
+  }
+  .container4{
+    width:calc(100%);
+    max-width:1100px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+  /*상품 갖다 대는 곳*/
+  .product1{
+    position:absolute;
+    left:0px; top:125px;
+  }
+  .product2{
+    position:absolute;
+    left:288px; top:125px;
+  }
+  .product3{
+    position:absolute;
+    left:577px; top:125px;
+  }
+  .product4{
+    position:absolute;
+    left:865px; top:125px;
+  }
+  .product5{
+    position:absolute;
+    left:0px; top:509px;
+  }
+  .product6{
+    position:absolute;
+    left:288px; top:509px;
+  }
+  .product7{
+    position:absolute;
+    left:577px; top:509px;
+  }
+  .product8{
+    position:absolute;
+    left:865px; top:509px;
+  }
+}

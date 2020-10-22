@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="theme-color" content="#ffffff" charset="utf-8">
+    <meta name="viewport" content="width=768px, user-scalable=no">
+    <title>GSMCart</title>
+    <link rel="stylesheet" href="GEdit.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!--소스로 활용할 html들 D1-D5 데스크탑-->
+    <div id="D1" style="display:none;">
+      <div class="container1">
+        <img src="img-pc/project logo.png" class="Project-Logo">
+        <div class="text0">
+          스토어
+        </div>
+        <img src="img-pc/search icon.png" class="Search-Icon">
+        <!--카트-->
+        <img src="img-pc/cart icon.png" class="Cart-Icon">
+        <!--개인정보-->
+        <img src="img-pc/person icon.png" class="Person-Icon">
+      </div>
+    </div>
+    <div id="D3" style="display:none;">
+      <div class="container3">
+        <img src="img-pc/project logo_white.png" class="Project-Logo_white">
+        <div class="TSARR">
+          광주광역시 광산구 상무대로 312<br>광주소프트웨어마이스터고등학교<br>ⓒTeam Silent.All rights reserved.
+        </div>
+      </div>
+    </div>
+    <!--모바일-->
+    <div id="M1" style="display:none">
+      <img src="img/Menu-Icon.png" class="Menu-Icon">
+      <img src="img/search icon.png" class="Search-Icon">
+      <img src="img/project logo.png" class="Project-Logo">
+      <img src="img/cart icon.png" class="Cart-Icon">
+      <img src="img/person icon.png" class="Person-Icon">
+    </div>
+    <div id="M3" style="display:none">
+      <img src="img/project logo_white.png" class="Project-Logo_white">
+      <div class="TSARR">
+        광주광역시 광산구 상무대로 312<br>광주소프트웨어마이스터고등학교<br>ⓒTeam Silent.All rights reserved.
+      </div>
+    </div>
+    <script type="text/javascript">
+    var D1 = $("#D1").html();
+    var D3 = $("#D3").html();
+    var M1 = $("#M1").html();
+    var M3 = $("#M3").html();
+      $(document).ready( function() {
+        if($(window).width()<769){
+          $("#B1").html(M1)
+          $("#B3").html(M3)
+        }
+        else{
+          $("#B1").html(D1)
+          $("#B3").html(D3)
+        }
+        $(window).resize(function(){
+          if($(window).width()<752){
+            $("#B1").html(M1)
+            $("#B3").html(M3)
+          }
+          else{
+            $("#B1").html(D1)
+            $("#B3").html(D3)
+          }
+        })
+      })
+      var Email = $('.text4.a').width();
+
+    </script>
+  </head>
+  <body>
+    <div id="B1" class="Background1">
+    </div>
+    <div id="B2" class="Background2">
+      <div class="text1">마이페이지</div>
+      <br style="margin:0">
+      <div class="text2 a">정기배송 관리</div>
+      <div class="text2 b">주문내역 조회</div>
+      <div class="text2 c">개인정보 수정</div>
+      <div class="text3 a1">이메일</div>
+      <div class="text3 b1">이름</div>
+      <div class="text3 c1">비밀번호</div>
+      <div class="text3 d1">학년</div>
+      <div class="text3 e1">반</div>
+      <div class="text4 a1">example@mail.com</div>
+      <div class="text4 b1">유태건</div>
+      <div class="text5 c1">변경</div>
+      <div class="text4 d1">1</div>
+      <div class="text4 e1">2</div>
+      <div class="text5 a d1">수정</div>
+      <div class="text5 a e1">수정</div>
+      <div class="text6 a1">회원탈퇴</div>
+    </div>
+    <div id="B3" class="Background3">
+    </div>
+  </body>
+</html>

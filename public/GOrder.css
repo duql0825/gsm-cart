@@ -1,0 +1,494 @@
+@media all and (max-width: 768px){
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  /*배경*/
+  .Background1 {
+    width:100%;
+    min-width:550px;
+    height: 66px;
+    background-color: #ffffff;
+  }
+  .Background3 {
+    width: calc(100%);
+    min-width:550px;
+    height: 133px;
+    background-color: #333333;
+    position: relative;
+  }
+  .TSARR {
+    width: 333px;
+    height: 97px;
+    font-family: SourceHanSansKR;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:33px; left:55%;
+  }
+  .Cart-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Menu-Icon {
+    padding-right:10px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Person-Icon {
+    padding-left:8px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Project-Logo {
+    width: calc(100% - 230px);
+    height: 36.6px;
+    padding-top:14.4px;
+    object-fit: none;
+  }
+  .Project-Logo_white {
+    width: 435px;
+    height: 133px;
+    object-fit: contain;
+    position: relative;
+    right:calc(20%);
+  }
+  .Search-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+ }
+@media all and (min-width: 769px) {
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  /*배경*/
+  .Background1 {
+    width: calc(100%);
+    min-width:1400px;
+    height: 110px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .Background2{
+    width:100%;
+    min-width:1400px;
+    height:1555px;
+    background-color:#ffffff;
+    position: relative;
+  }
+  .Background3 {
+    width: calc(100%);
+    min-width:1400px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+  /*폰트*/
+  .text0 {
+    width: 100px;
+    height: 46px;
+    font-family: SourceHanSansKR;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    top:32px; left:350px;
+  }
+  .text1 {
+    width: 242px;
+    height: 70px;
+    font-family: SourceHanSansKR;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin:9px calc(calc(100% - 242px)/2);
+  }
+  .text2 {
+    width: 162px;
+    height: 51px;
+    font-family: SourceHanSansKR;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+  }
+  .text2.a{
+    left:70px;
+  }
+  .text2.b{
+    left:260px;
+  }
+  .text2.c{
+    left:250px;
+  }
+  .text3{
+    width: 483.2px;
+    height: 38.1px;
+    font-family: SourceHanSansKR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    position: relative;
+    color: #333333;
+    left:140px; top:20px;
+  }
+  .text4{
+    width: 105.2px;
+    height: 12.9px;
+    font-family: SourceHanSansKR;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    position: relative;
+    color: #333333;
+    top:37px;
+  }
+  .text4.a{
+    text-align: center;
+    left:220px;
+  }
+  .text4.b{
+    text-align: right;
+    left:270px;
+  }
+  .text5{
+    width: 131.2px;
+    height: 40.7px;
+    font-family: SourceHanSansKR;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: right;
+    color: #333333;
+    position: relative;
+    top:10px; right:19px;
+  }
+  .text5>.a{
+    color: #ffca3a;
+  }
+  .text6{
+    width: 110px;
+    height: 64.5px;
+    font-family: SourceHanSansKR;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    position: relative;
+  }
+  .text6.a{
+    right:50px;
+  }
+  .text6.b{
+    width:130px;
+  }
+  .text7 {
+    width: 447.6px;
+    height: 107px;
+    font-family: SourceHanSansKR;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  .text8{
+    width: 240.7px;
+    height: 55.1px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #ffca3a;
+    font-family: SourceHanSansKR;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top:30px;
+  }
+  .text9{
+    width: 189px;
+    height: 53.1px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-family: SourceHanSansKR;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    border:solid 1px #ffca3a;
+    margin:2px;
+  }
+  .text10 {
+    width: 522px;
+    height: 55.3px;
+    font-family: SourceHanSansKR;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #bcbcbc;
+    position: relative;
+    top:100px;
+  }
+  .text10>.a{
+    color:#ffca3a;
+    font-weight: 500;
+  }
+  .text11{
+    width: 285.7px;
+    height: 59.4px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #ffca3a;
+    font-family: SourceHanSansKR;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top:200px;
+  }
+  input{
+    font-family: SourceHanSansKR;
+    width:200px;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    border-radius:10px;
+    text-align: left;
+    color: #333333;
+  }
+  input.a{
+    position: relative;
+    right:0;
+    width:800px;
+    height:80px;
+  }
+  .TSARR {
+    width: 470px;
+    height: 130px;
+    font-family: SourceHanSansKR;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:37px; right:calc(0%);
+  }
+  /*이미지 모음*/
+  .Cart-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:97.1px;
+  }
+  .Person-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position: absolute;
+    top:26.5px; right:26.5px;
+  }
+  .Project-Logo {
+    margin-top:5px;
+    width: 505px;
+    height: 100px;
+    object-fit: contain;
+    position:absolute;
+    left:-100px;
+  }
+  .Project-Logo_white {
+    width: 797px;
+    height: 203px;
+    object-fit: contain;
+    position: relative;
+    right:25%;
+  }
+  .Product{
+    width: 84.2px;
+    height: 84.2px;
+    object-fit: contain;
+    border-radius: 10px;
+    position: absolute;
+    top:calc(calc(100% - 84.2px)/2);
+    left:20px;
+  }
+  .Search-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:165.1px;
+  }
+  /*건축물*/
+  .kakaopay_bi_yellow_btn {
+    width: 109.8px;
+    height: 44.2px;
+    object-fit: contain;
+  }
+  .container1{
+    width:calc(100%);
+    max-width:1250px;
+    height:110px;
+    background-color:#FFFFFF;
+    position: relative;
+    text-align:left;
+  }
+  .container2{
+    width:996.6px;
+    height:auto;
+    min-height:148px;
+    background-color:#FFFFFF;
+    position: relative;
+    text-align:right;
+    margin-bottom:54.8px;
+  }
+  .container2.a{
+    width:996.6px;
+    height:40px;
+    min-height:40px;
+    background-color:#ffffff;
+    position: relative;
+    text-align: center;
+    border-bottom:0.8px #333333 solid;
+    margin:0;
+  }
+  .container2.b{
+    width:996.6px;
+    min-height:108.3px;
+    height:108.3px;
+    background-color: #ffffff;
+    position: relative;;
+    text-align: left;
+    border-bottom: 0.8px solid #333333;
+    margin:0;
+  }
+  .container2-1{
+    width:996.6px;
+    height:250px;
+    position: relative;
+    background-color:#ffffff;
+    text-align:right;
+  }
+  .container2-2{
+    width:578.3px;
+    height:133.1px;
+    position: relative;
+    margin-top:10px;
+    margin-bottom:40px;
+  }
+  .container2-2.a{
+    width:401.2px;
+  }
+  .container2-3{
+    width:700px;
+    height:100px;
+    text-align:left;
+  }
+  .container3{
+    width:calc(100%);
+    max-width:1100px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+}

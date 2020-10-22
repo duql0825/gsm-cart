@@ -1,0 +1,535 @@
+@media all and (max-width: 768px){
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  /*배경*/
+  .Background1 {
+    width:100%;
+    min-width:550px;
+    height: 66px;
+    background-color: #ffffff;
+  }
+  .Background2{
+    width:100%;
+    min-width:589.8px;
+    height:auto;
+    min-height:550px;
+    background-color: #ffffff;
+    position: relative;
+    padding-bottom:278px;
+  }
+  .Background3 {
+    width: calc(100%);
+    min-width:550px;
+    height: 133px;
+    background-color: #333333;
+    position: relative;
+  }
+  .text1 {
+    width: 330px;
+    height: 70px;
+    font-family: SourceHanSansKR;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    top:96px;
+  }
+  .text2 {
+    width: 174px;
+    height: 35px;
+    font-family: SourceHanSansKR;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+  }
+  .text2.a{
+    left:80px;
+  }
+  .text2.b{
+    left:120px;
+  }
+  .text2.c{
+    left:40px;
+  }
+  .text3 {
+    width: 228.7px;
+    height: auto;
+    font-family: SourceHanSansKR;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    position: relative;
+    top:37.5px; right:35px;
+  }
+  .text4 {
+    width: 100px;
+    height: 20px;
+    font-family: SourceHanSansKR;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    top:41.5px;
+    position: absolute;
+  }
+  .text4.a{
+    left:364px;
+  }
+  .text4.b{
+    left:470px;
+  }
+  .text5 {
+    width: 177px;
+    height: 63px;
+    font-family: SourceHanSansKR;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    left:214px; top:150px;
+  }
+  .text5.a {
+    font-weight: 300;
+    color: #ffca3a;
+    position: relative;
+    left:0px; top:0px;
+  }
+  .text6 {
+    width: 116px;
+    height: 29px;
+    font-family: SourceHanSansKR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top:200px; right:110px;
+  }
+  .TSARR {
+    width: 333px;
+    height: 97px;
+    font-family: SourceHanSansKR;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:33px; left:55%;
+  }
+  .button  {
+    width: 212.7px;
+    height: 53.4px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #ffca3a;
+    position: relative;
+    top:220px; left:60px;
+  }
+  .checkbox {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    position: absolute;
+    left:8.5px; bottom:calc(calc(100% - 24px)/2);
+  }
+  .checkbox.all{
+    bottom:8.5px;
+  }
+  .Cart-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Menu-Icon {
+    padding-right:10px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Person-Icon {
+    padding-left:8px;
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .Project-Logo {
+    width: calc(100% - 230px);
+    height: 36.6px;
+    padding-top:14.4px;
+    object-fit: none;
+  }
+  .Product {
+    width: 84px;
+    height: 84px;
+    object-fit: contain;
+    border-radius: 10px;
+    position: absolute;
+    left:50px; top:calc(calc(100% - 84px)/2);
+  }
+  .Project-Logo_white {
+    width: 435px;
+    height: 133px;
+    object-fit: contain;
+    position: relative;
+    right:calc(20%);
+  }
+  .Search-Icon {
+    width: 36.6px;
+    height: 36.6px;
+    position:relative;
+  }
+  .container2{
+    width:589.8px;
+    height:auto;
+    position:relative;
+    top:130px;
+  }
+  .container2-1{
+    width:589.8px;
+    height:33px;
+    position:relative;
+    border-bottom:solid 1px #333333;
+  }
+  .container2-2{
+    width:589.8px;
+    min-height:114px;
+    height:auto;
+    position:relative;
+    border-bottom:solid 1px #333333;
+  }
+ }
+@media all and (min-width: 769px) {
+  @font-face{
+    font-family: BMDoHyeon;
+    src: url('Fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: SourceHanSansKR;
+    src: url('Fonts/SourceHanSansKR-Normal.otf') format('opentype');
+  }
+  html, body {
+  max-width: 100%;
+  }
+  body {
+    margin:0;
+    text-align:center;
+    background-color: #333333;
+  }
+  div{
+    display:inline-block;
+  }
+  /*배경*/
+  .Background1 {
+    width: calc(100%);
+    min-width:1400px;
+    height: 110px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .Background2{
+    width:100%;
+    min-width:1400px;
+    height:auto;
+    min-height:400px;
+    background-color: #ffffff;
+    position: relative;
+    padding-bottom:313px;
+  }
+  .Background3 {
+    width: calc(100%);
+    min-width:1400px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+  /*폰트*/
+  .text0 {
+    width: 100px;
+    height: 46px;
+    font-family: SourceHanSansKR;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    top:32px; left:350px;
+  }
+  .text1 {
+    width: 330px;
+    height: 70px;
+    font-family: SourceHanSansKR;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    top:75px;
+  }
+  .text2 {
+    width: 150px;
+    height: 40px;
+    font-family: SourceHanSansKR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: absolute;
+  }
+  .text2.a{
+    left:395px;
+  }
+  .text2.b{
+    left:750px;
+  }
+  .text2.c{
+    left:930px;
+  }
+  .text3 {
+    width: 424.7px;
+    height: 69.7px;
+    font-family: SourceHanSansKR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    position: absolute;
+    left:252px; top:41.7px;
+  }
+  .text4 {
+    width: 202.9px;
+    height: 24.9px;
+    font-family: SourceHanSansKR;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: absolute;
+    top:51.7px;
+  }
+  .text4.a{
+    left:725px;
+  }
+  .text4.b{
+    left:910px;
+  }
+  .text5 {
+    width: 220.4px;
+    height: 78.4px;
+    font-family: SourceHanSansKR;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    top:170px; left:442px;
+  }
+  .text5.a {
+    font-weight: 300;
+    color: #ffca3a;
+    top:0px; left:0px;
+  }
+  .text6 {
+    width: 140px;
+    height: 35px;
+    font-family: SourceHanSansKR;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    left:calc(calc(100% - 140px)/2); bottom:104.4px;
+  }
+  .TSARR {
+    width: 470px;
+    height: 130px;
+    font-family: SourceHanSansKR;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top:37px; right:calc(0%);
+  }
+  .button  {
+    width: 212.7px;
+    height: 53.4px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #ffca3a;
+    position: absolute;
+    bottom:95.6px;
+    left:calc(calc(100% - 212.7px)/2);
+  }
+  .checkbox {
+    width: 29.9px;
+    height: 29.9px;
+    object-fit: contain;
+    position: absolute;
+    left:30px;
+    top:calc(calc(100% - 29.9px)/2);
+  }
+  .checkbox.all{
+    top:0px;
+  }
+  .Cart-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:97.1px;
+  }
+  .Person-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position: absolute;
+    top:26.5px; right:26.5px;
+  }
+  .Project-Logo {
+    margin-top:5px;
+    width: 505px;
+    height: 100px;
+    object-fit: contain;
+    position:absolute;
+    left:-100px;
+  }
+  .Project-Logo_white {
+    width: 797px;
+    height: 203px;
+    object-fit: contain;
+    position: relative;
+    right:25%;
+  }
+  .Search-Icon {
+    width: 57.1px;
+    height: 57.1px;
+    object-fit: contain;
+    position:absolute;
+    top:26.5px; right:165.1px;
+  }
+  .Product {
+    width: 104.6px;
+    height: 104.6px;
+    object-fit: contain;
+    border-radius: 10px;
+    position: absolute;
+    left:140px; top:calc(calc(100% - 104.6px)/2);
+  }
+  .container1{
+    width:calc(100%);
+    max-width:1250px;
+    height:110px;
+    background-color:#FFFFFF;
+    position: relative;
+    text-align:left;
+  }
+  .container2{
+    width:1108.6px;
+    height:auto;
+    position:relative;
+    top:150px;
+  }
+  .container2-1{
+    width:1108.6px;
+    height:40px;
+    position:relative;
+    border-bottom:solid 1px #333333;
+  }
+  .container2-2{
+    width:1108.6px;
+    min-height:142px;
+    height:auto;
+    position:relative;
+    border-bottom:solid 1px #333333;
+  }
+  .container3{
+    width:calc(100%);
+    max-width:1100px;
+    height: 203px;
+    background-color: #333333;
+    position: relative;
+  }
+}
